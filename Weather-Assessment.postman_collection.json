@@ -1,0 +1,69 @@
+{
+	"info": {
+		"_postman_id": "fca816d9-2635-46ba-be39-521ecc06cec8",
+		"name": "Weather-Assessment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Weather_ByCoord",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/weather/coordinates?lat=25.2582&long=55.3047",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"weather",
+						"coordinates"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "25.2582"
+						},
+						{
+							"key": "long",
+							"value": "55.3047"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Weather_ByCity",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/weather/city?cityName=Dubai&countryName=AE",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"weather",
+						"city"
+					],
+					"query": [
+						{
+							"key": "cityName",
+							"value": "Dubai"
+						},
+						{
+							"key": "countryName",
+							"value": "AE"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
