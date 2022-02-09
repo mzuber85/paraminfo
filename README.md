@@ -37,7 +37,7 @@ File 2: PROBLEM2_merge-sorted.zip
 ---------------------------------
 Merge sorted arrays
 
-1) extract and import maven project in eclipse
+1) extract and import java project in eclipse
 2) Run com.intigral.assignment.Application.java file
 
 
@@ -45,6 +45,6 @@ File 3: PROBLEM3_findsum.zip
 ---------------------------------
 Find Pair of positive ints having sum equals give number
 
-1) extract and import maven project in eclipse
+1) extract and import java project in eclipse
 2) Run com.intigral.assignment.Application.java file
 
